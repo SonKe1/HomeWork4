@@ -10,7 +10,7 @@ public class Main {
         long bonusBelowLimitForUnRegistered = service.calculate(1000_60, false);
         System.out.println(bonusBelowLimitForUnRegistered);
 
-        long bonusOverLimitForUnRegistered = service.calculate(1_000_000_60, true);
+        long bonusOverLimitForUnRegistered = service.calculate(1_000_000_60, false);
         System.out.println(bonusOverLimitForUnRegistered);
     }
 }
